@@ -805,6 +805,45 @@ img {
   animation: rotateCCW calc(var(--rotate-speed) * 1s) var(--easing) infinite;
 }
 
+/* .card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-conic-gradient(from var(--a),#0f0,#ff0,#0ff,#f0f,#0ff);
+  animation: rotating 4s linear infinite;
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-conic-gradient(from var(--a),#0f0,#ff0,#0ff,#f0f,#0ff);
+  animation: rotating 4s linear infinite;
+  filter: blur(40px);
+  opacity: 0.75;
+}
+
+.card span {
+  position: absolute;
+  inset: 4px;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+@property --a {
+  syntax : '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+@keyframes rotating {
+  0% {
+    --a: 0deg;
+  }
+  100% {
+    --a: 360deg;
+  }
+} */
+
 .card card-img {
   width: 100%;
 }
